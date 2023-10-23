@@ -285,8 +285,8 @@ section {
 }
 
 .about-details-container {
-  justify-content: center;
-  flex-direction: column;
+  /* justify-content: center;
+  flex-direction: column; */
 }
 
 #h3-header {
@@ -311,7 +311,7 @@ section {
 
 .arrow {
   position: absolute;
-  right: -5rem;
+  right: -10rem;
   bottom: 2.5rem;
 }
 
@@ -330,7 +330,7 @@ section {
   padding: 2rem;
   flex: 1;
   background: rgb(233, 230, 230);
-  border-radius: 2rem;
+  border-radius: 4rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
@@ -369,7 +369,7 @@ section {
 .experience-details-container {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  gap: 12px;
 }
 
 .article-container {
@@ -396,7 +396,6 @@ article .icon {
 
 #projects {
   position: relative;
-  
 }
 
 .color-container {
